@@ -4,8 +4,15 @@
        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                       http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
+
+    <!--alternative-->
     <alternatives>
        <!-- <class>com.hamitmizrak.teachcareer.alternative._02_Proje1</class>-->
         <class>com.hamitmizrak.teachcareer.alternative._03_Proje2</class>
     </alternatives>
+
+    <!--interceptor-->
+    <interceptors>
+        <class>com.hamitmizrak.teachcareer.interceptor._3_InterceptorYolKesiciAsilIs</class>
+    </interceptors>
 </beans>
